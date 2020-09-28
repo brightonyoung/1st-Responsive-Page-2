@@ -1,3 +1,47 @@
 body {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 25% 25% 25% 25%;
+    width: 992px;
+    margin: 0 auto;
+  }
     
-}
+main {
+    margin: 0 auto;
+    height: 450px;
+    background-color: teal;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+  }
+    
+section {
+    display: flex;
+    height: 324px;
+    width: 278px;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px 0;
+    background-color: black;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+  
+h2 {
+      font-size: 36px
+    }
+    
+p {
+      font-size: 18px
+    }
+  
+.item1 {
+      grid-row: 1 / span 3;
+    }
+    
+.item2 {
+      grid-row: 1 / span 3;
+    }
